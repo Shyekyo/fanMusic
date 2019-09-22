@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.LoginActivity">
+    <include layout="@layout/nav_bar"/>
+    <!--android:id="@+id/iv_pandas"-->
+    <ImageView
+        android:id="@+id/iv_pandas"
+        android:layout_width="wrap_content"
+        android:layout_height="274dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginSize"
+        android:src="@mipmap/logo" />
+    <com.example.fanmusic.views.InputView
+        android:id="@+id/input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intputViewHight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/pands"
+        app:input_hint="phoneNum"
+        app:is_password="false"/>
+    <View style="@style/line"/>
+
+    <com.example.fanmusic.views.InputView
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intputViewHight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/pands"
+        app:input_hint="passwd"
+        app:is_password="true"/>
+    <View style="@style/line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/marginSize"
+        android:text="立即注册"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/infoSize"
+        android:textColor="@color/mainColor"
+        android:onClick="onRegisterClick"/>
+
+    <Button
+        style="@style/commitBtn"
+        android:text="登  录"
+        android:layout_marginTop="@dimen/marginSize"
+        android:onClick="onCommitClick"/>
+
+</LinearLayout>
