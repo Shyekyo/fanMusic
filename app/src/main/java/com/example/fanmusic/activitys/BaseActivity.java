@@ -17,7 +17,6 @@ public class BaseActivity extends Activity {
         return findViewById(id);
     }
 
-
     protected void initNavBar(boolean isShowBack, String titile, boolean isShowPandas){
         mIvBack = fd(R.id.iv_back);
         mTvTitle = fd(R.id.iv_title);
@@ -25,7 +24,6 @@ public class BaseActivity extends Activity {
         mIvBack.setVisibility(isShowBack?View.VISIBLE:View.GONE);
         mTvTitle.setText(titile);
         mTvMe.setVisibility(isShowPandas?View.VISIBLE:View.GONE);
-
         mIvBack.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

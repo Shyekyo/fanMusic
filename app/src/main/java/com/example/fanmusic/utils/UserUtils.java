@@ -25,7 +25,7 @@ public class UserUtils {
             Toast.makeText(context, "请输入密码", Toast.LENGTH_SHORT).show();
             return false;
         }
-        return false;
+        return true;
     }
 }
 

@@ -7,4 +7,5 @@
     <color name="white">#7BB171</color>
     <color name="lineColor">#c3c3c3</color>
     <color name="mainColorH">#C80F1F</color>
+    <color name="titleColor">#333333</color>
 </resources>
