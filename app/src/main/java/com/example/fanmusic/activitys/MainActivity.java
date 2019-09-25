@@ -36,11 +36,11 @@ public class MainActivity extends BaseActivity {
         mGridAdapter = new MusicGridAdapter(this);
         mRvGrid.setAdapter(mGridAdapter);
 
-        /*mRvList = fd(R.id.rv_list);
+        mRvList = fd(R.id.rv_list);
         mRvList.setLayoutManager(new LinearLayoutManager(this));
         mRvList.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
         mRvList.setNestedScrollingEnabled(false);
-        mListAdapter = new MusicListAdapter(this, mRvList, mMusicSourceModel.getHot());
-        mRvList.setAdapter(mListAdapter);*/
+        mListAdapter = new MusicListAdapter(this, mRvList);//, mMusicSourceModel.getHot());
+        mRvList.setAdapter(mListAdapter);
     }
 }

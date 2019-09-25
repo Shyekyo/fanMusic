@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.fanmusic.R;
+import com.example.fanmusic.helps.UserHelper;
 import com.example.fanmusic.utils.UserUtils;
 import com.example.fanmusic.views.InputView;
 
@@ -40,6 +41,7 @@ public class LoginActivity extends BaseActivity {
     public void onCommitClick (View v) {
         String phone = mInputPhone.getInputStr();
         String password = mInputPassword.getInputStr();
+        UserHelper.getInstance().setPhone(phone);
 //        验证用户输入是否合法
 //        if (!UserUtils.validateLogin(this, phone, password)) {
  //           return;

@@ -1,4 +1,4 @@
-package com.example.fanmusic.activitys.models;
+package com.example.fanmusic.models;
 
 /**
  * Created by zhangxiaofan on 2019/9/25.

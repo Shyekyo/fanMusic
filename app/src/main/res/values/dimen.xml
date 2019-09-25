@@ -6,9 +6,13 @@
     <dimen name="titleSize">18sp</dimen>
     <dimen name="intputViewHight">44dp</dimen>
     <dimen name="infoSize">14sp</dimen>
-    <dimen name="btnHeight">44sp</dimen>
+    <dimen name="btnHeight">44sp</dimen>itemHeight
     <dimen name="radius">5dp</dimen>
     <dimen name="marginTabSize">4dp</dimen>
     <dimen name="albumMarginSize">4dp</dimen>
     <dimen name="playNumImgSize">18dp</dimen>
+    <dimen name="itemIconSize">56dp</dimen>
+    <dimen name="itemPlaySize">36dp</dimen>
+    <dimen name="itemHeight">44dp</dimen>
+    <dimen name="inputViewHeight">44dp</dimen>
 </resources>
