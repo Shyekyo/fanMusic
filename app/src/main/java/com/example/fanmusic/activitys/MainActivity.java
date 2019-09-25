@@ -31,7 +31,7 @@ public class MainActivity extends BaseActivity {
         mRvGrid = fd(R.id.rv_grid);
         mRvGrid.setLayoutManager(new GridLayoutManager(this, 3));
         //mRvGrid.addItemDecoration(new GridSpaceItemDecoration(getResources().getDimensionPixelSize(R.dimen.albumMarginSize), mRvGrid));
-       // mRvGrid.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.HORIZONTAL));
+        mRvGrid.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.HORIZONTAL));
         mRvGrid.setNestedScrollingEnabled(false);
         mGridAdapter = new MusicGridAdapter(this);
         mRvGrid.setAdapter(mGridAdapter);
